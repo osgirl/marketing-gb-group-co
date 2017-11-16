@@ -15,7 +15,9 @@ visibility: hidden;
 h2 {margin-top: 5rem; border-top: 1px solid #CCC; padding-top: 5rem; margin-bottom: 1rem;}
 h3 {margin-top: 3rem; margin-bottom: 1rem;}
 
-.row.logos {margin-bottom: 2rem;}
+#websites .card {margin-bottom: 2rem;}
+#socialMedia .card {margin-bottom: 2rem;}
+#logos .row {margin-bottom: 2rem;}
 
 .lead {font-weight: 200;}
 
