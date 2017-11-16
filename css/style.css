@@ -12,6 +12,8 @@ top: 50px;
 visibility: hidden;
 }
 
+.lead {font-weight: 200;}
+
 .navbar-dark {background-color: #3c3c3b!important;}
 
 .btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
