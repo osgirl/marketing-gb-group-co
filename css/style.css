@@ -1,47 +1,18 @@
 * {font-family: 'Noto Sans', sans-serif; color: #3c3c3b;} 
-
 .img-fluid {width: 100%;}
-
 a {color: #e2001a;}
 a:hover {color: #BA0217;}
-
-a.anchor {
-display: block;
-position: relative;
-top: 50px;
-visibility: hidden;
-}
-
+a.anchor {display: block; position: relative; top: 50px; visibility: hidden;}
 #main {margin-top: 7rem;}
-
 h2 {margin-top: 5rem; border-top: 1px solid #CCC; padding-top: 5rem; margin-bottom: 2rem;}
-
 #websites .card {margin-bottom: 2rem;}
 #socialMedia .card {margin-bottom: 2rem;}
 #logos .row {margin-bottom: 2rem;}
-
 .lead {font-weight: 200;}
-
 .navbar-dark {background-color: #3c3c3b!important;}
-
-.palette {
-width: 100%;
-height: 3rem;
-border-radius: 100px;
-}
-
-.pal-3C3C3B {
-background-color: #3c3c3b;
-}
-
-.pal-E2001A {
-background-color: #e2001a;
-}
-
-.pal-0076BD {
-background-color: #0076bd;
-}
-
-.pal-266D3B {
-background-color: #266d3b;
-}
+.palette {width: 100%; height: 3rem; border-radius: 100px;}
+.pal-3C3C3B {background-color: #3c3c3b;}
+.pal-E2001A {background-color: #e2001a;}
+.pal-0076BD {background-color: #0076bd;}
+.pal-266D3B {background-color: #266d3b;}
+.palette > p {margin-bottom: 0;}
