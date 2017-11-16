@@ -23,69 +23,24 @@ h3 {margin-top: 3rem; margin-bottom: 1rem;}
 
 .navbar-dark {background-color: #3c3c3b!important;}
 
-.btn-gb{color:#fff;background-color:#e2001a;border-color:#BA0217}
-.btn-gb:hover{color:#fff;background-color:#e2001a;border-color:#BA0217}
-
-.btn-ra{color:#fff;background-color:#0076BD;border-color:#01588C}
-.btn-ra:hover{color:#fff;background-color:#0076BD;border-color:#01588C}
-
-.btn-ag{color:#fff;background-color:#266D3B;border-color:#163F22}
-.btn-ag:hover{color:#fff;background-color:#266D3B;border-color:#163F22}
-
-.btn-gbgroup{color:#fff;background-color:#3c3c3b;border-color:#050505; font-size: 0.8rem;}
-.btn-gbgroup:hover{color:#fff;background-color:#3c3c3b;border-color:#050505; font-size: 0.8rem;}
-
-.text-gb, .text-ra, .text-ag {font-size: 0.8rem;}
-
-.text-gb {color:#e2001a;}
-.text-ra {color:#0076BD;}
-.text-ag {color:#266D3B;}
-
-
-section {margin-top: 10rem; margin-bottom: 10rem;}
-
-#jumbo {
-background: url(../img/bg.jpg) no-repeat center top;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-padding-top: 7rem;
-padding-bottom: 36rem;
-text-align: center;
+.palette {
+width: 100%;
+height: 3rem;
+border-radius: 100px;
 }
 
-#history {
-background: url(../img/victor-gregoire.jpg) no-repeat center top;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-padding-top: 2rem;
-padding-bottom: 26rem;
-text-align: center;
+.pal-3C3C3B {
+background-color: #3c3c3b;
 }
 
-.logo-jumbo {margin-bottom: 2rem;}
+.pal-E2001A {
+background-color: #e2001a;
+}
 
-.tagline {text-shadow: 1px 1px 1px rgba(120, 120, 120, 0.75);}
-.tagline-white {color:#FFF; text-shadow: 2px 2px 4px rgba(120, 120, 120, 0.75);}
+.pal-0076BD {
+background-color: #0076bd;
+}
 
-.legend {margin-top: 1rem;}
-
-#map {height: 30rem; width: 100%;}
-
-.card-range {margin-bottom: 2rem;}
-
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
-.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
-
-.maps iframe {pointer-events: none;}
-
-.contact .card {margin-bottom: 2rem;}
-
-@media screen and (min-width: 767px) {
-  .contact .card {
-    min-height: 33rem;
-  }
+.pal-266D3B {
+background-color: #266d3b;
 }
