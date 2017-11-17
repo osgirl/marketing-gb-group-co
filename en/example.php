@@ -10,3 +10,4 @@ if($downloader->hasVideo())
 {
     print_r($downloader->getVideoDownloadLink());
 }
+?>
