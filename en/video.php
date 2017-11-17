@@ -6,6 +6,8 @@ $streams = $info['url_encoded_fmt_stream_map']; //the video's location info
 
 $streams = explode(',',$streams);
 
+echo $streams;
+
 foreach($streams as $stream){
     parse_str($stream,$data); //decode the stream
     if(stripos($data['type'],$format) !== false){ //We've found the right stream with the correct format
