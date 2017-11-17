@@ -1,5 +1,6 @@
 <?php
 include_once 'script/YouTubeDownloader.php';
+include_once 'script/VimeoDownloader.php';
 include_once 'script/LinkHandler.php';
 
 $url = "https://www.youtube.com/watch?v=oeCihv9A3ac";
