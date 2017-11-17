@@ -14,6 +14,8 @@ foreach($streams as $stream){
         stream_copy_to_stream($video,$file); //copy it to the file
         fclose($video);
         fclose($file);
+        echo $video;
+        echo $file;
         echo 'Download finished! Check the file.';
         break;
     }
