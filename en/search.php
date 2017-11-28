@@ -16,5 +16,4 @@ $index->setSettings(array(
     "desc(popularity)"
   ]
 ));
-
 ?>
