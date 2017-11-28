@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
+  <link rel="stylesheet" type="text/css" href="instantsearch.css">
+</head>
+<body>
+  <header>
+    <div>
+       <input id="search-input" placeholder="Search for products">
+       <!-- We use a specific placeholder in the input to guides users in their search. -->
+    </div>
+  </header>
+  <main>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+<script type="text/javascript">
+  search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-input'
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#hits',
+    hitsPerPage: 10,
+    templates: {
+      item: document.getElementById('hit-template').innerHTML,
+      empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
+    }
+  })
+);
+</script>
