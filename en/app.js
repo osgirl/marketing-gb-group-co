@@ -8,8 +8,7 @@ var search = instantsearch({
 
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '#search-input',
-    searchOnEnterKeyPressOnly: true,
+    container: '#search-input'
   })
 );
 
@@ -29,7 +28,7 @@ search.addWidget(
     container: '#pagination',
     maxPages: 50,
     scollTo: false,
-    showFirstLast: true,
+    showFirstLast: true
   })
 );
 
