@@ -10,6 +10,7 @@
     <meta name="author" content="GB Group">
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext|Kanit:500" rel="stylesheet">
+    <link href="../css/instantsearch.min.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
@@ -1120,6 +1121,42 @@
             </div>
           </div>
 
+          <div id="catalogues">
+            <h2>Parts Catalogues</h2>
+            <h4>Grégoire Besson Ploughs</h4>
+            <p><small>At the moment, only Gregoire Besson ploughs parts catalogues are available. More will be added soon.</small></p>
+            <div class="row">
+              <div class="col-12">
+                <div class="card catalogueSearch">
+                  <div class="card-body text-center">
+                    <form>
+                      <div class="form-group">
+                        <label for="search-input"><small>Type serial number or model name</small></label>
+                        <input id="search-input" class="form-control-lg" placeholder="Ex: 123456" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ex: 123456'">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-4">
+                      <div class="list-group" id="hits">
+                      </div>
+                      <br>
+                      <br>
+                      <div id="pagination"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <script type="text/html" id="hit-template">
+              <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download class="list-group-item list-group-item-action">
+                <img src="../img/catalogues/catalogue-small.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span class="serial"><small>Serial:</small> <strong>{{serie}}</strong></span> - <span class="model"><small>Model:</small> <strong>{{model}}</strong></span>
+              </a>
+            </script>
+
+          </div>
+
         </div>
 
       </div>
@@ -1127,7 +1164,7 @@
       <div class="row" id="latestUpdate">
         <div class="col-12">
           <footer>
-            <p class="text-center"><small>Page latest update: 28/11/2017</small></p>
+            <p class="text-center"><small>Page latest update: 30/11/2017</small></p>
           </footer>
         </div>
       </div>
@@ -1139,6 +1176,8 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/instantsearch.min.js"></script>
+    <script src="../js/app.js"></script>
 
   </body>
 </html>
