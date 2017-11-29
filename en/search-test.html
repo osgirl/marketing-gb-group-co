@@ -10,6 +10,7 @@
     <meta name="author" content="GB Group">
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext|Kanit:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
@@ -1125,7 +1126,7 @@
             <h4>Grégoire Besson Ploughs</h4>
             <div class="row">
               <div class="col-12">
-                <div class="card">
+                <div class="card" style="background: #FEFEFE;">
                   <div class="card-body text-center">
                     <form>
                       <div class="form-group">
@@ -1134,23 +1135,22 @@
                       </div>
                     </form>
                   </div>
+                  <div class="row justify-content-center">
+                    <div class="col-4">
+                      <div class="list-group" id="hits">
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             
-            <div class="row justify-content-center">
-              <div class="col-8 ">
-                <div class="list-group" id="hits">
-                  
-                </div>
-              </div>
-            </div>
-
             <script type="text/html" id="hit-template">
               <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{fileame}}" download class="list-group-item list-group-item-action">
                 <img src="../img/catalogues/catalogue.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span><strong>{{serie}}</strong></span> - <span><small>{{model}}</small></span>
               </a>
             </script>
+
           </div>
 
         </div>
