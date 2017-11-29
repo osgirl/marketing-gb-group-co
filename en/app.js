@@ -25,7 +25,8 @@ search.addWidget(
 
 search.addWidget(
   instantsearch.widgets.pagination({
-    container: '#pagination'
+    container: '#pagination',
+    maxPages: 40,
   })
 );
 
