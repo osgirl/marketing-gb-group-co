@@ -18,3 +18,8 @@ p.pricedl {font-size: 0.8rem; margin-bottom: 0;}
 .card {margin-bottom: 2rem;}
 #latestUpdate {margin-top: 3rem; margin-bottom: 2rem;}
 .catalogueSearch {padding-bottom: 2rem; background: #F5F5F5;}
+#search-input::placeholder {color: #DDD;}
+#search-input::-webkit-input-placeholder {color: #DDD;} /* Chrome/Opera/Safari */
+#search-input::-moz-placeholder {color: #DDD;} /* Firefox 19+ */
+#search-input:-ms-input-placeholder {color: #DDD;} /* IE 10+ */
+#search-input:-moz-placeholder {color: #DDD;}  /* Firefox 18- */
