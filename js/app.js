@@ -4,11 +4,13 @@ var search = instantsearch({
   apiKey: '0a5e0edb3588b17ea4255c35f077e00d', // search only API key, no ADMIN key
   indexName: 'catalogues',
   urlSync: true,
-  
+
   searchFunction: function(helper) {
     var searchResults = $('#hits');
+    var pagination = $('#pagination');
     if (helper.state.query === '') {
       searchResults.hide();
+      pagination.hide();
       return;
     }
     helper.search();
