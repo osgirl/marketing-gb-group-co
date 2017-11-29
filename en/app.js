@@ -18,14 +18,8 @@ search.addWidget(
     hitsPerPage: 8,
     templates: {
       item: document.getElementById('hit-template').innerHTML,
-      empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
+      empty: "We didn't find any results for <em>\"{{query}}\"</em>"
     }
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.pagination({
-    container: '#pagination'
   })
 );
 
