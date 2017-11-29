@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext|Kanit:500" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
@@ -1139,9 +1138,11 @@
               </div>
             </div>
             
-            <div class="row justify-content-center">
-                <div id="hits">
+            <div class="row justify-content-center">              
+              <div id="hits">
+                <div class="col-6 col-sm-3 col-md-3">
                 </div>
+              </div>
             </div>
 
             <hr>
@@ -1150,7 +1151,7 @@
             
 
             <script type="text/html" id="hit-template">
-              <div class="col-6 col-sm-3 col-md-3">
+              
                 <a href="http://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download>
                   <div class="card">
                     <div class="card-body">
@@ -1161,7 +1162,7 @@
                     </div>
                   </div>
                 </a>
-              </div>
+              
             </script>
 
           </div>
