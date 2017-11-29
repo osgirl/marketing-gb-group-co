@@ -8,14 +8,15 @@ var search = instantsearch({
 
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '#search-input'
+    container: '#search-input',
+    searchOnEnterKeyPressOnly: true,
   })
 );
 
 search.addWidget(
   instantsearch.widgets.hits({
     container: '#hits',
-    hitsPerPage: 8,
+    hitsPerPage: 10,
     templates: {
       item: document.getElementById('hit-template').innerHTML,
       empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
@@ -27,6 +28,8 @@ search.addWidget(
   instantsearch.widgets.pagination({
     container: '#pagination',
     maxPages: 100,
+    scollTo: false,
+    showFirstLast: false,
   })
 );
 
