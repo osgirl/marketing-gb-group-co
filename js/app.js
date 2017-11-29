@@ -8,7 +8,8 @@ var search = instantsearch({
 
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '#search-input'
+    container: '#search-input',
+    autofocus: false
   })
 );
 
