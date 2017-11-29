@@ -1140,6 +1140,10 @@
                     <div class="col-4">
                       <div class="list-group" id="hits">
                       </div>
+                      <br>
+                      <br>
+                      <div id="pagination">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1147,20 +1151,9 @@
             </div>
             
             <script type="text/html" id="hit-template">
-              <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{fileame}}" download class="list-group-item list-group-item-action">
+              <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{fileame}}" download="{{fileame}}" class="list-group-item list-group-item-action">
                 <img src="../img/catalogues/catalogue-small.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span class="serial"><small>Serial:</small> <strong>{{serie}}</strong></span> - <span class="model"><small>Model:</small> <strong>{{model}}</strong></span>
               </a>
-            </script>
-
-            <script type="text/javascript">
-              $(function () {
-                  $('input,textarea').focus(function () {
-                      $(this).data('placeholder', $(this).attr('placeholder'))
-                             .attr('placeholder', '');
-                  }).blur(function () {
-                      $(this).attr('placeholder', $(this).data('placeholder'));
-                  });
-              });
             </script>
 
           </div>
