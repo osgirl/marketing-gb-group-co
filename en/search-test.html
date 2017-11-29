@@ -1139,23 +1139,17 @@
               </div>
             </div>
             
-            <div class="row">              
-              <div id="hits"></div>
+            <div class="row justify-content-center">
+              <div class="col-8 ">
+                <div class="list-group" id="hits">
+                  
+                </div>
+              </div>
             </div>
 
             <script type="text/html" id="hit-template">
-              <p>
-                <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{fileame}}" download>
-                <img src="../img/catalogues/catalogue.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;">
-                <span>{{serie}}</span>
-                <span>{{model}}</span>
-                </a>
-              </p>
+              <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{fileame}}" download class="list-group-item list-group-item-action"><img src="../img/catalogues/catalogue.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span><strong>{{serie}}</strong></span> - <span><small>{{model}}</small></span></a>
             </script>
-
-            <hr>
-            
-            <div id="pagination"></div>
           
 
           </div>
