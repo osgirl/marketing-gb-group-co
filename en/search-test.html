@@ -1124,25 +1124,43 @@
           <div id="catalogues">
             <h2>Parts Catalogues</h2>
             <h4>Grégoire Besson Ploughs</h4>
-            <form>
-              <input id="search-input" placeholder="Search for products">
-            </form>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="card">
+                  <div class="card-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="search-input"><small>Type serial number or model name</small></label>
+                        <input id="search-input" class="form-control-lg" placeholder="123456">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div id="hits">
+                </div>
+            </div>
+
             <hr>
-            <main>
-                <div id="hits"></div>
-                <div id="pagination"></div>
-            </main>
+            
+            <div id="pagination"></div>
+            
 
             <script type="text/html" id="hit-template">
-              <div class="hit">
-                <div class="hit-image">
-                  <img src="../img/catalogues/catalogue.png" alt="Gregoire Besson Parts Catalogue {{serie}} - {{model}}">
-                </div>
-                <div class="hit-content">
-                  <h3 class="hit-price">Serial number: {{serie}}</h3>
-                  <h2 class="hit-name">Model: {{model}}</h2>
-                  <p class="hit-description"><a href="http://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}">Download</a></p>
-                </div>
+              <div class="col-6 col-sm-3 col-md-3">
+                <a href="http://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download>
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="../img/catalogues/catalogue.png" alt="Gregoire Besson Parts Catalogue {{serie}} - {{model}}">
+                      <br>
+                      <h4>Serial number: {{serie}}</h4>
+                      <h5><small>Model: {{model}}</small></h5>
+                    </div>
+                  </div>
+                </a>
               </div>
             </script>
 
