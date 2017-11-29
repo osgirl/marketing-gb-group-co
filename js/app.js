@@ -15,6 +15,7 @@ var search = instantsearch({
     }
     helper.search();
     searchResults.show();
+    pagination.show();
   }
 });
 
