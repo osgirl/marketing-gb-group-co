@@ -17,6 +17,3 @@ p.pricedl {font-size: 0.8rem; margin-bottom: 0;}
 .kanit {font-family: 'Kanit', sans-serif; font-weight: 500; color: #266d3b; font-size: 1.2rem; margin-top: 1.75rem;}
 .card {margin-bottom: 2rem;}
 #latestUpdate {margin-top: 3rem; margin-bottom: 2rem;}
-#hits{width: 100%;}
-div[data-reactroot], .ais-hits {}
-.ais-hits--item {float: right;}
