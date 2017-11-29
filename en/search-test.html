@@ -1132,7 +1132,7 @@
                     <form>
                       <div class="form-group">
                         <label for="search-input"><small>Type serial number or model name</small></label>
-                        <input id="search-input" class="form-control-lg" placeholder="Ex: 123456">
+                        <input id="search-input" class="form-control-lg" placeholder="Ex: 123456" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ex: 123456'">
                       </div>
                     </form>
                   </div>
@@ -1153,17 +1153,6 @@
               <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download class="list-group-item list-group-item-action">
                 <img src="../img/catalogues/catalogue-small.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span class="serial"><small>Serial:</small> <strong>{{serie}}</strong></span> - <span class="model"><small>Model:</small> <strong>{{model}}</strong></span>
               </a>
-            </script>
-
-            <script type="text/javascript">
-$(function () {
-$('input,textarea').focus(function () {
-$(this).data('placeholder', $(this).attr('placeholder'))
-.attr('placeholder', '');
-}).blur(function () {
-$(this).attr('placeholder', $(this).data('placeholder'));
-});
-});
             </script>
 
           </div>
