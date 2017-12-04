@@ -11,7 +11,7 @@ $index->setSettings(array(
     "model"
   ],
   "customRanking" => [
-    "asc(serie)"
+    "desc(serie)"
   ]
 ));
 ?>
