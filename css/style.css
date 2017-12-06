@@ -44,7 +44,7 @@ bootstrap.min.css:6
     padding-right: 1rem;
     padding-left: 1rem;}
 
-.subsidiary {margin-bottom: 3rem;}
-.subsidiary h4, .subsidiary address, .subsidiary p {font-size:0.85rem;}
-.subsidiary h4 {font-weight:bold;}
-.subsidiary address {font-style: italic;}
+.row.subsidiary {margin-bottom: 3rem;}
+.row.subsidiary h4, .subsidiary address, .subsidiary p {font-size:0.85rem;}
+.row.subsidiary h4 {font-weight:bold;}
+.row.subsidiary address {font-style: italic;}
