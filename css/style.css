@@ -48,3 +48,4 @@ bootstrap.min.css:6
 .row.subsidiary h4, .subsidiary address, .subsidiary p {font-size:0.85rem;}
 .row.subsidiary h4 {font-weight:bold;}
 .row.subsidiary address {font-style: italic;}
+.partrate-result {border: 1px solid #CCC; margin-bottom: 0.5rem;}
