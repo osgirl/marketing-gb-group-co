@@ -17,12 +17,12 @@ p.pricedl {font-size: 0.8rem; margin-bottom: 0;}
 .kanit {font-family: 'Kanit', sans-serif; font-weight: 500; color: #266d3b; font-size: 1.2rem; margin-top: 1.75rem;}
 
 #latestUpdate {margin-top: 3rem; margin-bottom: 2rem;}
-.catalogueSearch {padding-bottom: 2rem; background: #F5F5F5;}
-#search-input::placeholder {color: #DDD;}
-#search-input::-webkit-input-placeholder {color: #DDD;} /* Chrome/Opera/Safari */
-#search-input::-moz-placeholder {color: #DDD;} /* Firefox 19+ */
-#search-input:-ms-input-placeholder {color: #DDD;} /* IE 10+ */
-#search-input:-moz-placeholder {color: #DDD;}  /* Firefox 18- */
+.catalogueSearch, .partSearch {padding-bottom: 2rem; background: #F5F5F5;}
+#search-input,#partrate-search-input::placeholder {color: #DDD;}
+#search-input,#partrate-search-input::-webkit-input-placeholder {color: #DDD;} /* Chrome/Opera/Safari */
+#search-input,#partrate-search-input::-moz-placeholder {color: #DDD;} /* Firefox 19+ */
+#search-input,#partrate-search-input:-ms-input-placeholder {color: #DDD;} /* IE 10+ */
+#search-input,#partrate-search-input:-moz-placeholder {color: #DDD;}  /* Firefox 18- */
 
 @media (min-width:576px){.tab-nav-logos {width: 80px;}}
 
@@ -38,11 +38,7 @@ p.pricedl {font-size: 0.8rem; margin-bottom: 0;}
 
 .section-divider {margin-top: 5rem; margin-bottom: 4rem;}
 
-@media (min-width: 992px)
-bootstrap.min.css:6
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;}
+@media (min-width: 992px) {.navbar-expand-lg .navbar-nav .nav-link {padding-right: 1rem; padding-left: 1rem;}}
 
 .row.subsidiary {margin-bottom: 3rem;}
 .row.subsidiary h4, .subsidiary address, .subsidiary p {font-size:0.85rem;}
