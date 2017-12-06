@@ -14,4 +14,20 @@ $index->setSettings(array(
     "desc(serie)"
   ]
 ));
+
+
+$parts = $client->initIndex('parts');
+
+$parts->setSettings(array(
+  "searchableAttributes" => [
+    "ref",
+    "label_fr"
+  ],
+  "customRanking" => [
+    "asc(ref)",
+    "desc(label_fr)",
+    "desc(price_eur)",
+    "desc(weight)"
+  ]
+));
 ?>

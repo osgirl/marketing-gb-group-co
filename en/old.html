@@ -1184,6 +1184,48 @@
 
           </div>
 
+          <div id="partsrates">
+            <h2>Parts Rates</h2>
+            <h4>Grégoire Besson Parts</h4>
+            <p><small>At the moment, only Gregoire Besson parts rates are available. More will be added soon.</small></p>
+            <div class="row">
+              <div class="col-12">
+                <div class="card partrate-catalogueSearch">
+                  <div class="card-body text-center">
+                    <form>
+                      <div class="form-group">
+                        <label for="partrate-search-input"><small>Type a reference number</small></label>
+                        <input id="partrate-search-input" class="form-control-lg" placeholder="Ex: M510228">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-4">
+                      <div class="list-group" id="partrate-hits">
+                      </div>
+                      <br>
+                      <br>
+                      <div id="partrate-pagination"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <script type="text/html" id="partrate-hit-template">
+             <p>
+              <span class="ref"><small>Ref:</small> <strong>{{ref}}</strong></span>
+              <br>
+              <span class="model"><small>Label (FR):</small> <strong>{{label_fr}}</strong></span>
+              <br>
+              <span class="model"><small>Weight:</small> <strong>{{price_eur}} kg.</strong></span>
+              <br>
+              <span class="model"><small>Price:</small> <strong>{{price_eur}} €</strong></span>
+             </p>
+            </script>
+
+          </div>
+
         </div>
 
       </div>
@@ -1205,6 +1247,7 @@
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script src="../js/instantsearch.min.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/app-parts.js"></script>
 
 
   </body>
