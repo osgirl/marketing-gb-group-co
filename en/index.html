@@ -94,6 +94,7 @@
                 <a class="dropdown-item" href="#gregoirebessonVideos">Videos</a>
                 <a class="dropdown-item" href="#gregoirebessonPricelists">Pricelists</a>
                 <a class="dropdown-item" href="#gregoirebessonPartscatalogues">Parts Catalogues</a>
+                <a class="dropdown-item" href="#gregoirebessonPartsrates">Parts Rates</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -945,7 +946,7 @@
           <hr class="section-divider">
 
           <a name="gregoirebessonPartscatalogues"></a>
-          <h3>Parts Catalogues (Only ploughs at the moment)</h3>
+          <h3>Parts Catalogues <small>(Only ploughs at the moment)</small></h3>
           <br>
           <div class="row justify-content-center partscatalogues">
             <div class="col-10">
@@ -974,6 +975,46 @@
               <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download target="_blank" class="list-group-item list-group-item-action">
                 <img src="../img/catalogues/catalogue-small.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span class="serial"><small>Serial:</small> <strong>{{serie}}</strong></span> - <span class="model"><small>Model:</small> <strong>{{model}}</strong></span>
               </a>
+            </script>
+          </div>
+
+
+          <hr class="section-divider">
+
+          <a name="gregoirebessonPartsrates"></a>
+          <h3>Parts Rates</h3>
+          <br>
+          <div class="row justify-content-center partsrates">
+            <div class="col-10">
+              <div class="card partSearch">
+                <div class="card-body text-center">
+                  <form>
+                    <div class="form-group">
+                      <label for="partrate-search-input"><small>Type a reference number</small></label>
+                      <input id="partrate-search-input" class="form-control-lg" placeholder="Ex: M510228">
+                    </div>
+                  </form>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-4">
+                    <div class="list-group" id="partrate-hits">
+                    </div>
+                    <br>
+                    <br>
+                    <div id="partrate-pagination"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <script type="text/html" id="partrate-hit-template">
+             <p class="partrate-result">
+              <span class="ref"><small>Ref:</small> <strong>{{ref}}</strong></span>
+              <br>
+              <span class="model"><small>Label (FR): <em>{{label_fr}}</em></small></span>
+              <br>
+              <span class="model"><small>Weight:</small> <strong>{{weight}} kg.</strong></span>  - <span class="model"><small>Price:</small> <strong>{{price_eur}} €</strong></span>
+             </p>
             </script>
           </div>
 
@@ -1399,6 +1440,7 @@
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <script src="../js/instantsearch.min.js"></script>
     <script src="../js/app.js"></script>
+    <script src="../js/app-parts.js"></script>
 
     <script>
     $(document).ready(function () {
