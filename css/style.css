@@ -45,3 +45,10 @@ p.pricedl {font-size: 0.8rem; margin-bottom: 0;}
 .row.subsidiary h4 {font-weight:bold;}
 .row.subsidiary address {font-style: italic;}
 .partrate-result {border: 1px solid #CCC; margin-bottom: 0.5rem; padding: 0.3rem; background: #FFF;}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
