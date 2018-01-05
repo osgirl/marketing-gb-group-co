@@ -155,9 +155,11 @@
                     foreach ($arr as $value) {
                         echo "
                         <div class=\"col-3\">\n
-                            <img class=\"img-fluid\" src=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value."\">\n
-                            <br />\n
-                            <a href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\"><small>Download &darr;</small></a>\n
+                            <div class\"card\" style=\"margin-bottom: 2rem;\">\n
+                                <img class=\"img-fluid\" src=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value."\">\n
+                                <br />\n
+                                <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
+                            </div>\n
                         </div>\n
                         \n
                         ";}
