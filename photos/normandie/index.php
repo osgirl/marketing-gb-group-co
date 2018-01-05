@@ -164,12 +164,14 @@
                                 <div class=\"ratio\" style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");\"></div>\n
                                 <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
                                 <p class=\"\">";
-                                $exif = exif_read_data("https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."", 0, true);
-                                foreach ($exif as $key => $section) {
-                                    foreach ($section as $name => $val) {
-                                        echo $key.$name." ".$val."<br />";
-                                    }
-                                }
+
+if($exif = exif_read_data("https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."", EXIF, true))
+{       
+    foreach ($section as $name => $value)
+    {
+        $exif_tab[$name] .= $value;
+    }
+}
                                 echo "</p>\n
                             </div>\n
                         </div>\n
