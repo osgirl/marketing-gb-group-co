@@ -162,6 +162,7 @@
                         <div class=\"col-3\">\n
                             <div class=\"card\" style=\"margin-bottom: 2rem;\">\n
                                 <div class=\"ratio\" style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");\"></div>\n
+                                <p><small>".$value."</small></p>
                                 <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
                             </div>\n
                         </div>\n
