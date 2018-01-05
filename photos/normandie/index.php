@@ -163,16 +163,6 @@
                             <div class=\"card\" style=\"margin-bottom: 2rem;\">\n
                                 <div class=\"ratio\" style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");\"></div>\n
                                 <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
-                                <p class=\"\">";
-
-if($exif = exif_read_data("https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."", EXIF, true))
-{       
-    foreach ($section as $name => $value)
-    {
-        $exif_tab[$name] .= $value;
-    }
-}
-                                echo "</p>\n
                             </div>\n
                         </div>\n
                         \n
