@@ -155,9 +155,8 @@
                     foreach ($arr as $value) {
                         echo "
                         <div class=\"col-3\">\n
-                            <div class\"card\" style=\"margin-bottom: 2rem;\">\n
-                                <img class=\"img-fluid\" src=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value."\">\n
-                                <br />\n
+                            <div class=\"card\" style=\"margin-bottom: 2rem;\">\n
+                                <div style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");display: block; width: 100%; padding-bottom: 150%; background-repeat: no-repeat; background-position: center center; background-size: cover;\"></div>\n
                                 <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
                             </div>\n
                         </div>\n
