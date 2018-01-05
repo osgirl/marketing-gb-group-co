@@ -52,3 +52,4 @@ a.anchor {
     top: -150px;
     visibility: hidden;
 }
+.ratio {display: block; width: 100%; padding-bottom: 65%; background-repeat: no-repeat; background-position: center center; background-size: cover;}

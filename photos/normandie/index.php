@@ -156,7 +156,7 @@
                         echo "
                         <div class=\"col-3\">\n
                             <div class=\"card\" style=\"margin-bottom: 2rem;\">\n
-                                <div style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");display: block; width: 100%; padding-bottom: 150%; background-repeat: no-repeat; background-position: center center; background-size: cover;\"></div>\n
+                                <div class=\"ratio\" style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");\"></div>\n
                                 <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small>Download &darr;</small></a>\n
                             </div>\n
                         </div>\n
