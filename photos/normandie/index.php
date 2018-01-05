@@ -24,10 +24,15 @@
 
   </head>
   <body>
+
     <div class="container">
         <div class="row">
             <div class="col-12">
+                <a href="https://marketing.gb-group.co">Back to homepage</a>
+                <br>
+                <br>
                 <h1>Normandie</h1>
+                <br>
                 <div class="row">
                     <?php
                     $arr = array(
