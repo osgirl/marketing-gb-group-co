@@ -97,8 +97,7 @@
                 <a class="dropdown-item" href="#gregoirebessonLeaflets">Leaflets</a>
                 <a class="dropdown-item" href="#gregoirebessonVideos">Videos</a>
                 <a class="dropdown-item" href="#gregoirebessonPricelists">Pricelists</a>
-                <a class="dropdown-item" href="#gregoirebessonPartscatalogues">Parts Catalogues</a>
-                <a class="dropdown-item" href="#gregoirebessonPartsrates">Parts Rates</a>
+                <a class="dropdown-item" href="https://parts.gb-group.co" target="_blank">Parts</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -112,6 +111,7 @@
                 <a class="dropdown-item" href="#rabeLeaflets">Leaflets</a>
                 <a class="dropdown-item" href="#rabeVideos">Videos</a>
                 <a class="dropdown-item" href="#rabePricelists">Pricelists</a>
+                <a class="dropdown-item" href="https://parts.gb-group.co" target="_blank">Parts</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -122,6 +122,7 @@
                 <a class="dropdown-item" href="#agriwayLogos">Logos</a>
                 <a class="dropdown-item" href="#agriwayBranding">Branding</a>
                 <a class="dropdown-item" href="#agriwayLinks">Links</a>
+                <a class="dropdown-item" href="https://parts.gb-group.co" target="_blank">Parts</a>
               </div>
             </li>
             <!--<li class="nav-item dropdown">
@@ -1059,105 +1060,10 @@
               </div>
             </div>
 
-            <div class="col-6 col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h6>Parts (EN)</h6>
-                  <img class="img-fluid" src="../img/pricelists/gb-parts.jpg">
-                  <p class="pricedl"><a href="http://marketing.cellar.services.clever-cloud.com/pricelists/gregoire-besson/pricelist-gregoirebesson-parts-en.pdf" download>&darr; Download</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h6>Parts (FR)</h6>
-                  <img class="img-fluid" src="../img/pricelists/gb-parts.jpg">
-                  <p class="pricedl"><a href="http://marketing.cellar.services.clever-cloud.com/pricelists/gregoire-besson/pricelist-gregoirebesson-parts-fr.pdf" download>&darr; Download</a></p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div class="row justify-content-center">
             <p><small>Suggested ex-works rates, subject to change without notice.</small></p>
-          </div>
-
-
-          <hr class="section-divider">
-
-          <a class="anchor" name="gregoirebessonPartscatalogues"></a>
-          <h3>Parts Catalogues <small>(Only ploughs at the moment)</small></h3>
-          <br>
-          <div class="row justify-content-center partscatalogues">
-            <div class="col-10">
-              <div class="card catalogueSearch">
-                <div class="card-body text-center">
-                  <form>
-                    <div class="form-group">
-                      <label for="search-input"><small>Type serial number or model name</small></label>
-                      <input id="search-input" class="form-control-lg" placeholder="Ex: N139032">
-                    </div>
-                  </form>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="list-group" id="hits">
-                    </div>
-                    <br>
-                    <br>
-                    <div id="pagination"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <script type="text/html" id="hit-template">
-              <a href="https://marketing.cellar.services.clever-cloud.com/catalogues/gregoire-besson/{{filename}}" download target="_blank" class="list-group-item list-group-item-action">
-                <img src="../img/catalogues/catalogue-small.png" alt="Parts Catalogue {{serie}} - {{model}}" style="width:15px;"> <span class="serial"><small>Serial:</small> <strong>{{serie}}</strong></span> - <span class="model"><small>Model:</small> <strong>{{model}}</strong></span>
-              </a>
-            </script>
-          </div>
-
-
-          <hr class="section-divider">
-
-          <a class="anchor" name="gregoirebessonPartsrates"></a>
-          <h3>Parts Rates</h3>
-          <br>
-          <div class="row justify-content-center partsrates">
-            <div class="col-10">
-              <div class="card partSearch">
-                <div class="card-body text-center">
-                  <form>
-                    <div class="form-group">
-                      <label for="partrate-search-input"><small>Type a reference number</small></label>
-                      <input id="partrate-search-input" class="form-control-lg" placeholder="Ex: M510228">
-                    </div>
-                  </form>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="list-group" id="partrate-hits">
-                    </div>
-                    <br>
-                    <br>
-                    <div id="partrate-pagination"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <script type="text/html" id="partrate-hit-template">
-             <p class="partrate-result">
-              <span class="ref"><small>Ref:</small> <strong>{{ref}}</strong></span>
-              <br>
-              <span class="model"><small>Label (FR): <em>{{label_fr}}</em></small></span>
-              <br>
-              <span class="model"><small>Weight:</small> <strong>{{weight}} kg.</strong></span>  - <span class="model"><small>Price:</small> <strong>{{price_eur}} €</strong></span>
-             </p>
-            </script>
           </div>
 
         </div>
