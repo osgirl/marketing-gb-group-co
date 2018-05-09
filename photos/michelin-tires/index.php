@@ -31,7 +31,7 @@
                 <a href="https://marketing.gb-group.co">Back to homepage</a>
                 <br>
                 <br>
-                <h1>Voyager</h1>
+                <h1>Michelin Tires</h1>
                 <br>
                 <div class="row">
                     <?php
