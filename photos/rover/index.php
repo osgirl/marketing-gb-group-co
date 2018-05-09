@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Michelin Tires Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
+    <title>Rover Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
     <meta name="description" content="">
     <meta name="author" content="GB Group">
 
@@ -31,27 +31,44 @@
                 <a href="https://marketing.gb-group.co">Back to homepage</a>
                 <br>
                 <br>
-                <h1>Michelin Tires</h1>
+                <h1>Rover</h1>
                 <br>
                 <div class="row">
                     <?php
                     $arr = array(
-                    "axiobib2-00001.jpg",
-                    "axiobib2-00002.jpg",
-                    "axiobib2-00003.jpg",
-                    "axiobib2-00004.jpg",
-                    "axiobib2-00005.jpg",
-                    "axiobib2-00006.jpg",
-                    "axiobib2-00007.jpg",
-                    "axiobib2-00008.jpg",
-                    "axiobib2-00009.jpg",
-                    "axiobib2-00010.jpg",
-                    "axiobib2-00011.jpg",
-                    "axiobib2-00012.jpg",
-                    "axiobib2-00013.jpg",
-                    "axiobib2-00014.jpg",
-                    "axiobib2-00015.jpg",
-                    "axiobib2-00016.jpg"
+                    "rover-60-001.jpg",
+                    "rover-60-002.jpg",
+                    "rover-60-003.jpg",
+                    "rover-60-004.jpg",
+                    "rover-60-005.jpg",
+                    "rover-60-006.jpg",
+                    "rover-60-007.jpg",
+                    "rover-60-008.jpg",
+                    "rover-60-009.jpg",
+                    "rover-60-010.jpg",
+                    "rover-60-011.jpg",
+                    "rover-60-012.jpg",
+                    "rover-60-013.jpg",
+                    "rover-60-014.jpg",
+                    "rover-60-015.jpg",
+                    "rover-60-016.jpg",
+                    "rover-60-017.jpg",
+                    "rover-60-018.jpg",
+                    "rover-60-019.jpg",
+                    "rover-60-020.jpg",
+                    "rover-60-021.jpg",
+                    "rover-60-022.jpg",
+                    "rover-60-023.jpg",
+                    "rover-60-024.jpg",
+                    "rover-60-025.jpg",
+                    "rover-60-026.jpg",
+                    "rover-60-027.jpg",
+                    "rover-60-028.jpg",
+                    "rover-60-029.jpg",
+                    "rover-60-030.jpg",
+                    "rover-60-031.jpg",
+                    "rover-60-032.jpg",
+                    "rover-60-033.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
