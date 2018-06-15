@@ -9,8 +9,8 @@
     <meta name="author" content="GB Group">
 
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext|Kanit:500" rel="stylesheet">
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/style.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108104860-1"></script>
