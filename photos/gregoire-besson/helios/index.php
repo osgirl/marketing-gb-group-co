@@ -36,21 +36,21 @@
                 <div class="row">
                     <?php
                     $arr = array(
-                    "helios-mono-00001.JPG",
-                    "helios-mono-00002.JPG",
-                    "helios-mono-00003.JPG",
-                    "helios-mono-00004.JPG",
-                    "helios-mono-00005.JPG",
-                    "helios-mono-00006.JPG",
-                    "helios-mono-00007.JPG",
-                    "helios-mono-00008.JPG",
-                    "helios-mono-00009.JPG",
-                    "helios-mono-00010.JPG",
-                    "helios-mono-00011.JPG",
-                    "helios-mono-00012.JPG",
-                    "helios-mono-00013.JPG",
-                    "helios-mono-00014.JPG",
-                    "helios-mono-00015.JPG"
+                    "helios-mono-00001.jpg",
+                    "helios-mono-00002.jpg",
+                    "helios-mono-00003.jpg",
+                    "helios-mono-00004.jpg",
+                    "helios-mono-00005.jpg",
+                    "helios-mono-00006.jpg",
+                    "helios-mono-00007.jpg",
+                    "helios-mono-00008.jpg",
+                    "helios-mono-00009.jpg",
+                    "helios-mono-00010.jpg",
+                    "helios-mono-00011.jpg",
+                    "helios-mono-00012.jpg",
+                    "helios-mono-00013.jpg",
+                    "helios-mono-00014.jpg",
+                    "helios-mono-00015.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
