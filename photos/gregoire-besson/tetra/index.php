@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Helios Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
+    <title>Tetra Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
     <meta name="description" content="">
     <meta name="author" content="GB Group">
 
@@ -31,53 +31,29 @@
                 <a href="https://marketing.gb-group.co">Back to homepage</a>
                 <br>
                 <br>
-                <h1>Helios</h1>
+                <h1>Tetra</h1>
                 <br>
                 <div class="row">
                     <?php
                     $arr = array(
-                    "helios-mono-00001.jpg",
-                    "helios-mono-00002.jpg",
-                    "helios-mono-00003.jpg",
-                    "helios-mono-00004.jpg",
-                    "helios-mono-00005.jpg",
-                    "helios-mono-00006.jpg",
-                    "helios-mono-00007.jpg",
-                    "helios-mono-00008.jpg",
-                    "helios-mono-00009.jpg",
-                    "helios-mono-00010.jpg",
-                    "helios-mono-00011.jpg",
-                    "helios-mono-00012.jpg",
-                    "helios-mono-00013.jpg",
-                    "helios-mono-00014.jpg",
-                    "helios-mono-00015.jpg",
-                    "helios-00016.jpg",
-                    "helios-00017.jpg",
-                    "helios-00018.jpg",
-                    "helios-00019.jpg",
-                    "helios-00020.jpg",
-                    "helios-00021.jpg",
-                    "helios-00022.jpg",
-                    "helios-00023.jpg",
-                    "helios-00024.jpg",
-                    "helios-00025.jpg",
-                    "helios-00026.jpg",
-                    "helios-00027.jpg",
-                    "helios-00028.jpg",
-                    "helios-00029.jpg",
-                    "helios-00030.jpg",
-                    "helios-00031.jpg",
-                    "helios-00032.jpg",
-                    "helios-00033.jpg",
-                    "helios-00034.jpg",
-                    "helios-00035.jpg",
-                    "helios-00036.jpg",
-                    "helios-00037.jpg",
-                    "helios-00038.jpg",
-                    "helios-00039.jpg",
-                    "helios-00040.jpg",
-                    "helios-00041.jpg",
-                    "helios-00042.jpg"
+                    "tetra-00001.jpg",
+                    "tetra-00002.jpg",
+                    "tetra-00003.jpg",
+                    "tetra-00004.jpg",
+                    "tetra-00005.jpg",
+                    "tetra-00006.jpg",
+                    "tetra-00007.jpg",
+                    "tetra-00008.jpg",
+                    "tetra-00009.jpg",
+                    "tetra-00010.jpg",
+                    "tetra-00011.jpg",
+                    "tetra-00012.jpg",
+                    "tetra-00013.jpg",
+                    "tetra-00014.jpg",
+                    "tetra-00015.jpg",
+                    "tetra-00016.jpg",
+                    "tetra-00017.jpg",
+                    "tetra-00018.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
