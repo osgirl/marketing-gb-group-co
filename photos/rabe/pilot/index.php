@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Blackbird Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
+    <title>Pilot Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
     <meta name="description" content="">
     <meta name="author" content="GB Group">
 
@@ -31,36 +31,29 @@
                 <a href="https://marketing.gb-group.co">Back to homepage</a>
                 <br>
                 <br>
-                <h1>Blackbird</h1>
+                <h1>Pilot</h1>
                 <br>
                 <div class="row">
                     <?php
                     $arr = array(
-                    "blackbird-00001.jpg",
-                    "blackbird-00002.jpg",
-                    "blackbird-00003.jpg",
-                    "blackbird-00004.jpg",
-                    "blackbird-00005.jpg",
-                    "blackbird-00006.jpg",
-                    "blackbird-00007.jpg",
-                    "blackbird-00008.jpg",
-                    "blackbird-00009.jpg",
-                    "blackbird-00010.jpg",
-                    "blackbird-00011.jpg",
-                    "blackbird-00012.jpg",
-                    "blackbird-00014.jpg",
-                    "blackbird-00015.jpg",
-                    "blackbird-00016.jpg",
-                    "blackbird-00017.jpg",
-                    "blackbird-00018.jpg",
-                    "blackbird-00019.jpg",
-                    "blackbird-00020.jpg",
-                    "blackbird-00021.jpg",
-                    "blackbird-00022.jpg",
-                    "blackbird-00023.jpg",
-                    "blackbird-00024.jpg",
-                    "blackbird-00025.jpg",
-                    "blackbird-00026.jpg"
+                    "pilot-00001.jpg",
+                    "pilot-00002.jpg",
+                    "pilot-00003.jpg",
+                    "pilot-00004.jpg",
+                    "pilot-00005.jpg",
+                    "pilot-00006.jpg",
+                    "pilot-00007.jpg",
+                    "pilot-00008.jpg",
+                    "pilot-00009.jpg",
+                    "pilot-00010.jpg",
+                    "pilot-00011.jpg",
+                    "pilot-00012.jpg",
+                    "pilot-00013.jpg",
+                    "pilot-00014.jpg",
+                    "pilot-00015.jpg",
+                    "pilot-00016.jpg",
+                    "pilot-00017.jpg",
+                    "pilot-00018.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "

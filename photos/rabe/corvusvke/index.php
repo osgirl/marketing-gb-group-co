@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Blackbird Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
+    <title>Corvus VKE Photos - GB Group Marketing Tools &amp; Brand Assets - Grégoire Besson, Rabe, Agriway</title>
     <meta name="description" content="">
     <meta name="author" content="GB Group">
 
@@ -31,36 +31,57 @@
                 <a href="https://marketing.gb-group.co">Back to homepage</a>
                 <br>
                 <br>
-                <h1>Blackbird</h1>
+                <h1>Corvus VKE</h1>
                 <br>
                 <div class="row">
                     <?php
                     $arr = array(
-                    "blackbird-00001.jpg",
-                    "blackbird-00002.jpg",
-                    "blackbird-00003.jpg",
-                    "blackbird-00004.jpg",
-                    "blackbird-00005.jpg",
-                    "blackbird-00006.jpg",
-                    "blackbird-00007.jpg",
-                    "blackbird-00008.jpg",
-                    "blackbird-00009.jpg",
-                    "blackbird-00010.jpg",
-                    "blackbird-00011.jpg",
-                    "blackbird-00012.jpg",
-                    "blackbird-00014.jpg",
-                    "blackbird-00015.jpg",
-                    "blackbird-00016.jpg",
-                    "blackbird-00017.jpg",
-                    "blackbird-00018.jpg",
-                    "blackbird-00019.jpg",
-                    "blackbird-00020.jpg",
-                    "blackbird-00021.jpg",
-                    "blackbird-00022.jpg",
-                    "blackbird-00023.jpg",
-                    "blackbird-00024.jpg",
-                    "blackbird-00025.jpg",
-                    "blackbird-00026.jpg"
+                    "corvus-vke-00001.jpg",
+                    "corvus-vke-00002.jpg",
+                    "corvus-vke-00003.jpg",
+                    "corvus-vke-00004.jpg",
+                    "corvus-vke-00005.jpg",
+                    "corvus-vke-00006.jpg",
+                    "corvus-vke-00007.jpg",
+                    "corvus-vke-00008.jpg",
+                    "corvus-vke-00009.jpg",
+                    "corvus-vke-00010.jpg",
+                    "corvus-vke-00011.jpg",
+                    "corvus-vke-00012.jpg",
+                    "corvus-vke-00013.jpg",
+                    "corvus-vke-00014.jpg",
+                    "corvus-vke-00015.jpg",
+                    "corvus-vke-00019.jpg",
+                    "corvus-vke-00020.jpg",
+                    "corvus-vke-00021.jpg",
+                    "corvus-vke-00022.jpg",
+                    "corvus-vke-00023.jpg",
+                    "corvus-vke-00024.jpg",
+                    "corvus-vke-00025.jpg",
+                    "corvus-vke-00026.jpg",
+                    "corvus-vke-00027.jpg",
+                    "corvus-vke-00028.jpg",
+                    "corvus-vke-00029.jpg",
+                    "corvus-vke-00030.jpg",
+                    "corvus-vke-00031.jpg",
+                    "corvus-vke-00032.jpg",
+                    "corvus-vke-00033.jpg",
+                    "corvus-vke-00034.jpg",
+                    "corvus-vke-00035.jpg",
+                    "corvus-vke-00036.jpg",
+                    "corvus-vke-00037.jpg",
+                    "corvus-vke-00038.jpg",
+                    "corvus-vke-00039.jpg",
+                    "corvus-vke-00040.jpg",
+                    "corvus-vke-00041.jpg",
+                    "corvus-vke-00042.jpg",
+                    "corvus-vke-00043.jpg",
+                    "corvus-vke-00044.jpg",
+                    "corvus-vke-00045.jpg",
+                    "corvus-vke-00046.jpg",
+                    "corvus-vke-00047.jpg",
+                    "corvus-vke-00048.jpg",
+                    "corvus-vke-00049.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
