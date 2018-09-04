@@ -45,7 +45,6 @@
                     "prima-00007.jpg",
                     "prima-00008.jpg",
                     "prima-00009.jpg",
-                    "prima-00010.jpg",
                     "prima-00011.jpg",
                     "prima-00012.jpg",
                     "prima-00013.jpg",
