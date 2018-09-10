@@ -36,24 +36,14 @@
                 <div class="row">
                     <?php
                     $arr = array(
-                    "tetra-00001.jpg",
                     "tetra-00002.jpg",
-                    "tetra-00003.jpg",
                     "tetra-00004.jpg",
                     "tetra-00005.jpg",
-                    "tetra-00006.jpg",
-                    "tetra-00007.jpg",
-                    "tetra-00008.jpg",
-                    "tetra-00009.jpg",
                     "tetra-00010.jpg",
                     "tetra-00011.jpg",
                     "tetra-00012.jpg",
                     "tetra-00013.jpg",
-                    "tetra-00014.jpg",
-                    "tetra-00015.jpg",
-                    "tetra-00016.jpg",
-                    "tetra-00017.jpg",
-                    "tetra-00018.jpg"
+                    "tetra-00014.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
