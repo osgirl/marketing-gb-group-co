@@ -35,6 +35,7 @@
                 <br>
                 <div class="row">
                     <?php
+                    $arr = array(
                     "normandie-pr-00001.jpg",
                     "normandie-pr-00002.jpg",
                     "normandie-pr-00003.jpg",
