@@ -165,7 +165,6 @@
                     "helios-quechoisir-duo.png",
                     "helios-quechoisir-mono.png",
                     "helios-securite-boulon-craker.png",
-                    "helios-securite-boulon-helios-craker-1.jpg",
                     "helios-securite-boulon-helios-craker-1.png",
                     "helios-securite-boulon-helios-craker-2-1.png",
                     "helios-securite-boulon-helios-craker-2.png",
