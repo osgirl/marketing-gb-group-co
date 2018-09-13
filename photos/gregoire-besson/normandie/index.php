@@ -256,7 +256,9 @@
                     "normandie-2016-mich-00029.jpg",
                     "normandie-2016-mich-00030.jpg",
                     "normandie-2016-mich-00031.jpg",
-                    "normandie-2016-mich-00032.jpg"
+                    "normandie-2016-mich-00032.jpg",
+                    "voyager-2016-mich-00035.jpg",
+                    "voyager-2016-mich-00036.jpg",
                     );
                     foreach ($arr as $value) {
                         echo "

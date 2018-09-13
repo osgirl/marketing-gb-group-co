@@ -111,8 +111,6 @@
                     "voyager-2016-mich-00032.jpg",
                     "voyager-2016-mich-00033.jpg",
                     "voyager-2016-mich-00034.jpg",
-                    "voyager-2016-mich-00035.jpg",
-                    "voyager-2016-mich-00036.jpg",
                     "voyager-2016-mich-00037.jpg",
                     "voyager-2016-mich-00038.jpg",
                     "voyager-2016-mich-00039.jpg",
