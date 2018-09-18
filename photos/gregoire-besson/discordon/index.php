@@ -67,7 +67,13 @@
                     "discordon-00048.jpg",
                     "discordon-00049.jpg",
                     "discordon-00050.jpg",
-                    "discordon-00051.jpg"
+                    "discordon-00051.jpg",
+                    "discordon-vostok-00001.jpg",
+                    "discordon-vostok-00002.jpg",
+                    "discordon-vostok-00003.jpg",
+                    "discordon-vostok-00004.jpg",
+                    "discordon-vostok-00005.jpg",
+                    "discordon-vostok-00006.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
