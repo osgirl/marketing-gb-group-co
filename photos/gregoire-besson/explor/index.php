@@ -48,7 +48,22 @@
                     "explor-00019.jpg",
                     "explor-00020.jpg",
                     "explor-00021.jpg",
-                    "explor-00022.jpg"
+                    "explor-00022.jpg",
+                    "explor-vostok-00001.jpg",
+                    "explor-vostok-00002.jpg",
+                    "explor-vostok-00003.jpg",
+                    "explor-vostok-00004.jpg",
+                    "explor-vostok-00005.jpg",
+                    "explor-vostok-00006.jpg",
+                    "explor-vostok-00007.jpg",
+                    "explor-vostok-00008.jpg",
+                    "explor-vostok-00009.jpg",
+                    "explor-vostok-00010.jpg",
+                    "explor-vostok-00011.jpg",
+                    "explor-vostok-00012.jpg",
+                    "explor-vostok-00013.jpg",
+                    "explor-vostok-00014.jpg",
+                    "explor-vostok-00015.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
