@@ -36,6 +36,11 @@
                 <div class="row">
                     <?php
                     $arr = array(
+                    "prima-40-00001.jpg",
+                    "prima-40-00002.jpg",
+                    "prima-40-00003.jpg",
+                    "prima-40-00004.jpg",
+                    "prima-40-00005.jpg",
                     "prima-00001.jpg",
                     "prima-00002.jpg",
                     "prima-00003.jpg",
