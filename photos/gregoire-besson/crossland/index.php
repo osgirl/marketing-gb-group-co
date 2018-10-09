@@ -139,7 +139,30 @@
                     "crossland-00119.jpg",
                     "crossland-00120.jpg",
                     "crossland-00121.jpg",
-                    "crossland-00122.jpg"
+                    "crossland-00122.jpg",
+                    "crossland-t70-poland-00001.jpg",
+                    "crossland-t70-poland-00002.jpg",
+                    "crossland-t70-poland-00003.jpg",
+                    "crossland-t70-poland-00004.jpg",
+                    "crossland-t70-poland-00005.jpg",
+                    "crossland-t70-poland-00006.jpg",
+                    "crossland-t70-poland-00007.jpg",
+                    "crossland-t70-poland-00008.jpg",
+                    "crossland-t70-poland-00009.jpg",
+                    "crossland-t70-poland-00010.jpg",
+                    "crossland-t70-poland-00011.jpg",
+                    "crossland-t70-poland-00012.jpg",
+                    "crossland-t70-poland-00013.jpg",
+                    "crossland-t70-poland-00014.jpg",
+                    "crossland-t70-poland-00015.jpg",
+                    "crossland-t70-poland-00016.jpg",
+                    "crossland-t70-poland-00017.jpg",
+                    "crossland-t70-poland-00018.jpg",
+                    "crossland-t70-poland-00019.jpg",
+                    "crossland-t70-poland-00020.jpg",
+                    "crossland-t70-poland-00021.jpg",
+                    "crossland-t70-poland-00022.jpg",
+                    "crossland-t70-poland-00023.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
