@@ -553,6 +553,21 @@
                     "voyager-vostok-00094.jpg",
                     "voyager-vostok-00095.jpg"
                     );
+                    /*
+                    photos from Eric de Gouville (still a prototype)
+                    "voyager-c80-andpak-poland00001.jpg",
+                    "voyager-c80-andpak-poland00002.jpg",
+                    "voyager-c80-andpak-poland00003.jpg",
+                    "voyager-c80-andpak-poland00004.jpg",
+                    "voyager-c80-andpak-poland00005.jpg",
+                    "voyager-c80-andpak-poland00006.jpg",
+                    "voyager-c80-andpak-poland00007.jpg",
+                    "voyager-c80-andpak-poland00008.jpg",
+                    "voyager-c80-andpak-poland00009.jpg",
+                    "voyager-c80-andpak-poland00010.jpg",
+                    "voyager-c80-andpak-poland00011.jpg",
+                    "voyager-c80-andpak-poland00012.jpg"
+                    */
                     foreach ($arr as $value) {
                         echo "
                         <div class=\"col-3\">\n
