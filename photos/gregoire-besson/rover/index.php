@@ -211,8 +211,8 @@
                     "rover-00224.jpg",
                     "rover-00226.jpg",
                     "rover-00228.jpg",
-                    "Rover40-D300S-50mm-001.jpg",
-                    "Rover40-D300S-50mm-002.jpg",
+                    );
+                    /*
                     "Rover40-D300S-50mm-003.jpg",
                     "Rover40-D300S-50mm-004.jpg",
                     "Rover40-D300S-50mm-005.jpg",
@@ -222,7 +222,6 @@
                     "Rover40-D300S-50mm-009.jpg",
                     "Rover40-D300S-50mm-010.jpg",
                     "Rover40-D300S-50mm-011.jpg",
-                    "Rover40-D300S-50mm-012.jpg",
                     "Rover40-D300S-50mm-013.jpg",
                     "Rover40-D300S-50mm-014.jpg",
                     "Rover40-D300S-50mm-015.jpg",
@@ -245,8 +244,6 @@
                     "Rover40-D300S-50mm-032.jpg",
                     "Rover40-D300S-50mm-033.jpg",
                     "Rover40-D300S-50mm-034.jpg",
-                    "Rover40-D300S-50mm-035.jpg",
-                    "Rover40-D300S-50mm-036.jpg",
                     "Rover40-D7100-18-105mm-001.jpg",
                     "Rover40-D7100-18-105mm-002.jpg",
                     "Rover40-D7100-18-105mm-003.jpg",
@@ -272,7 +269,6 @@
                     "Rover40-D7100-18-105mm-023.jpg",
                     "Rover40-D7100-18-105mm-024.jpg",
                     "Rover40-D7100-18-105mm-025.jpg",
-                    "Rover40-D7100-18-105mm-026.jpg",
                     "Rover40-D7100-18-105mm-027.jpg",
                     "Rover40-D7100-18-105mm-028.jpg",
                     "Rover40-D7100-18-105mm-029.jpg",
@@ -296,12 +292,10 @@
                     "Rover40-D7100-18-105mm-047.jpg",
                     "Rover40-D7100-18-105mm-048.jpg",
                     "Rover40-D7100-18-105mm-049.jpg",
-                    "Rover40-D7100-18-105mm-050.jpg",
                     "Rover40-D7100-18-105mm-051.jpg",
                     "Rover40-D7100-18-105mm-052.jpg",
                     "Rover40-D7100-18-105mm-053.jpg",
                     "Rover40-D7100-18-105mm-054.jpg",
-                    "Rover40-D7100-18-105mm-055.jpg",
                     "Rover40-D7100-18-105mm-056.jpg",
                     "Rover40-D7100-18-105mm-057.jpg",
                     "Rover40-D7100-18-105mm-058.jpg",
@@ -317,7 +311,6 @@
                     "Rover40-D7100-18-105mm-068.jpg",
                     "Rover40-D7100-18-105mm-069.jpg",
                     "Rover40-D7100-18-105mm-070.jpg",
-                    "Rover40-D7100-18-105mm-071.jpg",
                     "Rover40-D7100-18-105mm-072.jpg",
                     "Rover40-D7100-18-105mm-073.jpg",
                     "Rover40-D7100-18-105mm-074.jpg",
@@ -325,25 +318,13 @@
                     "Rover40-D7100-18-105mm-076.jpg",
                     "Rover40-D7100-18-105mm-077.jpg",
                     "Rover40-D7100-18-105mm-078.jpg",
-                    "Rover40-D7100-18-105mm-079.jpg",
                     "Rover40-D7100-18-105mm-080.jpg",
                     "Rover40-D7100-18-105mm-081.jpg",
                     "Rover40-D7100-18-105mm-082.jpg",
                     "Rover40-D7100-18-105mm-083.jpg",
                     "Rover40-D7100-18-105mm-084.jpg",
                     "Rover40-D7100-18-105mm-085.jpg",
-                    "Rover40-D7100-18-105mm-086.jpg",
-                    "Rover40-D7100-18-105mm-087.jpg",
-                    "Rover40-D7100-18-105mm-088.jpg",
-                    "Rover40-D7100-18-105mm-089.jpg",
                     "Rover40-D7100-18-105mm-090.jpg",
-                    "Rover40-D7100-18-105mm-091.jpg",
-                    "Rover40-D7100-18-105mm-092.jpg",
-                    "Rover40-D7100-18-105mm-093.jpg",
-                    "Rover40-D7100-18-105mm-094.jpg"
-                    );
-                    /*
-
                     */
                     foreach ($arr as $value) {
                         echo "
