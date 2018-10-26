@@ -68,12 +68,22 @@
                     "discordon-00049.jpg",
                     "discordon-00050.jpg",
                     "discordon-00051.jpg",
-                    "discordon-vostok-00001.jpg",
-                    "discordon-vostok-00002.jpg",
-                    "discordon-vostok-00003.jpg",
-                    "discordon-vostok-00004.jpg",
-                    "discordon-vostok-00005.jpg",
-                    "discordon-vostok-00006.jpg"
+                    "discordon-t70-00001.jpg",
+                    "discordon-t70-00002.jpg",
+                    "discordon-t70-00003.jpg",
+                    "discordon-t70-00004.jpg",
+                    "discordon-t70-00005.jpg",
+                    "discordon-t70-00006.jpg",
+                    "discordon-t70-00007.jpg",
+                    "discordon-t70-00008.jpg",
+                    "discordon-t70-00009.jpg",
+                    "discordon-t70-00010.jpg",
+                    "discordon-t70-00011.jpg",
+                    "discordon-t70-00012.jpg",
+                    "discordon-t70-00013.jpg",
+                    "discordon-t70-00014.jpg",
+                    "discordon-t70-00015.jpg",
+                    "discordon-t70-00016.jpg"
                     );
                     foreach ($arr as $value) {
                         echo "
