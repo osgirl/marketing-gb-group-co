@@ -325,6 +325,18 @@
                     "Rover40-D7100-18-105mm-084.jpg",
                     "Rover40-D7100-18-105mm-085.jpg",
                     "Rover40-D7100-18-105mm-090.jpg",
+                    "Rover40-Drone-00091.jpg",
+                    "Rover40-Drone-00092.jpg",
+                    "Rover40-Drone-00093.jpg",
+                    "Rover40-Drone-00094.jpg",
+                    "Rover40-Drone-00095.jpg",
+                    "Rover40-Drone-00096.jpg",
+                    "Rover40-Drone-00097.jpg",
+                    "Rover40-Drone-00098.jpg",
+                    "Rover40-Drone-00099.jpg",
+                    "Rover40-Drone-00100.jpg",
+                    "Rover40-Drone-00101.jpg",
+                    "Rover40-Drone-00102.jpg"
                     */
                     foreach ($arr as $value) {
                         echo "
