@@ -53,3 +53,73 @@ a.anchor {
     visibility: hidden;
 }
 .ratio {display: block; width: 100%; padding-bottom: 65%; background-repeat: no-repeat; background-position: center center; background-size: cover;}
+
+
+/*Animation des boutons de téléchargement*/
+.btn-GB {
+    background-color: #3C3C3B;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s; 
+}
+
+.btn-GB:hover{
+    background-color: white;
+    border: 1px solid #3C3C3B;
+    color: #3C3C3B;
+}
+
+.btn-Gregoire {
+    background-color: #E2001A;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s; 
+}
+
+.btn-Gregoire:hover{
+    background-color: white;
+    border: 1px solid #E2001A;
+    color: #E2001A;
+}
+
+.btn-Rabe {
+    background-color: #0076BD;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s; 
+}
+
+.btn-Rabe:hover{
+    background-color: white;
+    border: 1px solid #0076BD;
+    color: #0076BD;
+}
+
+.btn-Agriway {
+    background-color: #266D3B;
+    color: white;
+    width: 100%;
+    font-size: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s; 
+}
+
+.btn-Agriway:hover{
+    background-color: white;
+    border: 1px solid #266D3B;
+    color: #266D3B;
+}
