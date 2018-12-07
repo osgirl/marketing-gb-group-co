@@ -123,3 +123,12 @@ a.anchor {
     border: 1px solid #266D3B;
     color: #266D3B;
 }
+
+.cookies {
+    padding: 15px 50px;
+    display: inline;
+    background-color: white;
+    bottom: 0px;
+    border-top: 2px solid rgb(68, 68, 68);
+    position: fixed;
+}
