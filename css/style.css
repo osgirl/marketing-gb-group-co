@@ -147,7 +147,7 @@ a.anchor {
         background-color: #3C3C3B;
         color: white;
         width: 90%;
-        font-size: 9px;
+        font-size: 8px;
         transition: all 1s;
         -webkit-transition: all 1s;
         -moz-transition: all 1s;
@@ -174,8 +174,8 @@ a.anchor {
     }
 
     .cookies div div {
-        margin-bottom: 5px;
-        font-size: 8px;
+        margin-bottom: 0px;
+        font-size: 10px;
     }
 }
 
