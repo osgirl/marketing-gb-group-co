@@ -48,6 +48,7 @@
                     "digger-00010.jpg",
                     "digger-00011.jpg",
                     "digger-00012.jpg",
+                    "dogger-00014.jpg",
                     "digger-00015.jpg",
                     "digger-00016.jpg",
                     "digger-00018.jpg",
