@@ -36,6 +36,16 @@
                 <div class="row">
                     <?php
                     $arr = array(
+                    "prima-80-001.jpg",
+                    "prima-80-002.jpg",
+                    "prima-80-003.jpg",
+                    "prima-80-004.jpg",
+                    "prima-80-005.jpg",
+                    "prima-80-006.jpg",
+                    "prima-80-007.jpg",
+                    "prima-80-008.jpg",
+                    "prima-80-009.jpg",
+                    "prima-80-010.jpg",
                     "prima-50-50mm-001.jpg",
                     "prima-50-50mm-002.jpg",
                     "prima-50-50mm-003.jpg",
@@ -168,15 +178,15 @@
                     );
                     foreach ($arr as $value) {
                         echo "
-                        <div class=\"col-3\">\n
-                            <div class=\"card\" style=\"margin-bottom: 2rem;\">\n
-                                <div class=\"ratio\" style=\"background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");\"></div>\n
-                                <p class=\"text-center\" style=\"margin: 0; padding: 0.5rem; font-size:0.7rem;\"><small>".$value."</small></p>
-                                <a class=\"text-center\" href=\"https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."\" download target=\"_blank\"><small style=\"font-weight: bold; padding-bottom: 0.5rem; display: block;\">Download &darr;</small></a>\n
-                            </div>\n
-                        </div>\n
-                        \n
-                        ";}
+                        <div class='col-3'>
+                            <div class='card' style='margin-bottom: 2rem;'>
+                                <div class='ratio' style='background-image: url(https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/small/".$value.");'></div>
+                                <p class='text-center' style='margin: 0; padding: 0.5rem; font-size:0.7rem;\'><small>".$value."</small></p>
+                                <a class='text-center' href='https://marketing.cellar.services.clever-cloud.com/photos/gregoire-besson/original/".$value."' download target='_blank'><small style='font-weight: bold; padding-bottom: 0.5rem; display: block;'>Download &darr;</small></a>
+                            </div>
+                        </div>"
+                        ;
+                      }
                     ?>
                 </div>
             </div>    
